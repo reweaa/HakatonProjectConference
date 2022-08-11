@@ -24,14 +24,14 @@ def func(message) :
         bot.send_message(message.chat.id, text="Выбери свой класс", reply_markup=markup)
 
     elif message.text == "📕1 - 4 Класс":
-        bot.send_message(message.chat.id, text ="📕Ваша комната №1, https://t.me+hxmG20WsVsw1MjBi")
+        bot.send_message(message.chat.id, text ="📕Ваша комната №1, https://t.me/+hxmG20WsVsw1MjBi")
  
      
-    elif message.text == "📗5 - 8 Класс ":
-        bot.send_message(message.chat.id, text="📗Ваша комната №2, https://t.me+IiVH4WW6tbwzYzYy")
+    elif message.text == "📗5 - 8 Класс":
+        bot.send_message(message.chat.id, text="📗Ваша комната №2, https://t.me/+IiVH4WW6tbwzYzYy")
 
     elif message.text == "📘9 - 11 Класс":
-        bot.send_message(message.chat.id, text="📘Ваша комната №3, https://t.me+Tg0q-VMQy9I2NDRi")
+        bot.send_message(message.chat.id, text="📘Ваша комната №3, https://t.me/+Tg0q-VMQy9I2NDRi")
      
     elif (message.text == "❌Вернуться в главное меню"):
 
